@@ -194,6 +194,9 @@ h4 {
   background-color:#F7F2F1;
   margin-top: 27px;
 }
+.pro-1:hover{
+  cursor: pointer;
+}
 .pro-container{
   display: flex;
   flex-wrap: wrap;
@@ -214,6 +217,96 @@ h4 {
 .pro-container .pro-1 .des div {
   color: rgb(70, 67, 54);
 }
-.price{
-  color:#260881;
+.star{
+  color: gold;
+}
+.c{
+  color: green;
+}
+#banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://mcdn.wallpapersafari.com/medium/93/96/okbNfA.jpg");
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+#banner h4{
+  color: #fff;
+  font-size: 16px;
+}
+
+#banner h2{
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 0;
+}
+#banner h2 span{
+color: #ef3636;
+}
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000 ;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transform: 0.2s;
+  margin-top: 15px;
+}
+#banner button:hover{
+  background-color: #088178;
+  color: white;
+}
+#sm-banner .banner-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 454px;
+  height: 247px;
+  
+  background-image: url("https://img.freepik.com/free-photo/beautiful-casual-woman-fashion-set_1203-7833.jpg");
+  
+
+}
+#sm-banner .banner-box-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 454px;
+  height: 247px;
+
+  
+  background-image: url("https://www.shutterstock.com/image-photo/fashionable-confident-blonde-woman-wearing-260nw-2117571818.jpg");
+  
+
+}
+#sm-banner .banner-box button:hover{
+background-color: #088178;
+color: white;
+}
+#sm-banner .banner-box-2 button:hover{
+  background-color: #088178;
+  color: white;
+  }
+#sm-banner{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+#sm-banner h4{
+  color: rgba(4, 71, 1, 0.963);
+  font-size: 20px;
+  font-weight: 300;
 }
