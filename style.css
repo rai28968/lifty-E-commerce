@@ -480,4 +480,87 @@ footer{
     
   
 }
+.text {
+  align-items: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 100px;
+  padding: 1px 1px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.text h2{
+  margin-top: 5px;
+}
+.text p{
+  margin-top: 1px;
+}
+}
+
+/*shop page */
+
+#page-header{
+  background-image: url("https://wallpaperaccess.com/full/318714.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  
+
+}
+#page-header h2{
+  color: #a8def0;
+  font-size: 45px;
+  font-weight: 600;
+}
+#page-header p{
+  color: #db2929;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+#pagination{
+  text-align: center;
+  margin-top: 37px;
+}
+#pagination a{
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+}
+#pagination a i{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* blopg code */
+#blog-header{
+  background-image: url("https://wallpaperaccess.com/full/124384.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+#blog-header h2{
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+}
+#blog-header p{
+  color: #db2929;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 10px;
 }
