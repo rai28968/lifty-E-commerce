@@ -122,6 +122,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+  flex-wrap: wrap;
 }
 
 .feature-box {
@@ -291,6 +292,14 @@ button.normal{
   
 
 }
+#sm-banner .banner-box h4{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+#sm-banner .banner-box-2 h4{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
 #sm-banner .banner-box button:hover{
 background-color: #088178;
 color: white;
@@ -309,4 +318,166 @@ color: white;
   color: rgba(4, 71, 1, 0.963);
   font-size: 20px;
   font-weight: 300;
+}
+#banner-3{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+
+#banner-3 .banner-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  background-image: url("https://images.unsplash.com/photo-1439158771502-46975f6e44e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbiUyMHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&w=1000&q=80");
+}
+#banner-3 .banner-box h2{
+  color: #088178;
+  font-size: 40px;
+}
+#banner-3 .banner-box h3{
+  color: rgb(103, 12, 12);
+  font-size: 30px;
+}
+#banner-3 .banner-box-2 h2{
+  color: #088178;
+  font-size: 40px;
+}
+#banner-3 .banner-box-2 h3{
+  color: rgb(103, 12, 12);
+  font-size: 30px;
+}
+#banner-3 .banner-box-3 h2{
+  color: #088178;
+  font-size: 40px;
+}
+#banner-3 .banner-box-3 h3{
+  color: rgb(103, 12, 12);
+  font-size: 30px;
+}
+#banner-3 .banner-box-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  background-image: url("https://media.istockphoto.com/id/1308237234/photo/women-wearing-elegant-dresses-street-style-detail.jpg?b=1&s=612x612&w=0&k=20&c=MZfHalFKficJsrrApFRlZBXRMvL-6umBimtDP0HQDWA=");
+}
+#banner-3 .banner-box-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  background-image: url("https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/306/797/84/adult-blur-fashion-girls-landscape-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+  margin-top: 40px;
+  
+}
+#newsletter .newstext h4{
+  font-size: 38px; 
+
+}
+#newsletter .newstext p{
+  font-size: 20px;
+}
+#newsletter .newstext p span{
+  color: rgb(115, 59, 4);
+}
+#newsletter .form input{
+  font-size: 20px;
+}
+#newsletter .form button{
+  font-size: 20px;
+  background-color: #088178;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.newstext{
+  margin-left: 20px;
+}
+.form{
+  margin-right: 20px;
+}
+.icons{
+  margin-top: 3px;
+  margin-left: 19px;
+}
+.col h4{
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+.col{
+  margin-left: 20px;
+  
+}
+.follo{
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact{
+  font-size: 20px;
+  font-weight: 600;
+}
+.logo-footer{
+  margin-top: 37px;
+  margin-bottom: -24px;
+  margin-right: 5px;
+  height: 49px;
+  width: 108px;
+}
+.links{
+  display: flex;
+  
+  flex-direction: column;
+  margin-top: 83px;
+
+}
+.links a{
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.text-color{
+  color: rgb(149, 144, 144);
+}
+@media(max-width:799px){
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+   
+    
+  
+}
 }
