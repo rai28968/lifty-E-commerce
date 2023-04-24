@@ -464,6 +464,7 @@ footer{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  background-color: #F7F1EF;
 
 }
 .text-color{
@@ -565,4 +566,108 @@ footer{
   font-size: 35px;
   font-weight: 500;
   margin-top: 10px;
+}
+/* blog code */
+#blog{
+  padding: 150px 150px 0 150px ;
+}
+#blog .blog-box{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 40px;
+}
+#blog .blog-image{
+  width: 50%;
+ 
+  margin-left: 40px;
+}
+#blog img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+#blog .blog-details{
+  width: 50%;
+  margin-left: 40px;
+  
+}
+#blog .blog-details h4{
+  margin-bottom: 5px;
+  font-size: 21px;
+}
+#blog .blog-details a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  position: relative;
+}
+#blog .blog-details a::after{
+  content: "";
+  width: 50%;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 8px;
+  right: -86px;
+
+}
+#blog .blog-details a:hover{
+  color: #088178;
+}
+#blog .blog-details a:hover::after{
+ background-color: #088178;
+}
+@media (max-width:800px) {
+  .blog-box{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%
+  }
+  .blog-details{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #blog img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+#blog {
+  padding: 150px 15px 0 15px;
+}
+#blog-header h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: -70px;
+}
+  
+}
+ /* about us code */
+ #about-header{
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvay1wLW55LW03Nzc3LmpwZw.jpg?s=nuw5Ml9QSKnRbWWEzMOs_ylJp9zDTKOUp0vMPMDaCwg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  background-position: center;
+ }
+
+ #about-header h2{
+  color: #403636;
+  font-size: 45px;
+  font-weight: 600;
+}
+#about-header p{
+  color: #fffaff;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 10px;
+  font-weight: bolder;
 }
